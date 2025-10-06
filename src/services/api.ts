@@ -1,7 +1,8 @@
 import axios from 'axios';
 import type { Review } from '../types';
 
-const BASE_URL = 'https://vercel.com/bethel4s-projects/backend/api/reviews';
+const BASE_URL = "https://backend-blush-alpha-59.vercel.app/api/reviews"; // replace with your Vercel deployment URL
+
 
 
 // Fetch all reviews from backend

@@ -1,7 +1,8 @@
 import axios from 'axios';
 import type { Review } from '../types';
 
-const BASE_URL = 'http://localhost:5000/api/reviews';
+const BASE_URL = 'https://vercel.com/bethel4s-projects/backend/api/reviews';
+
 
 // Fetch all reviews from backend
 export const fetchReviews = async (): Promise<Review[]> => {
